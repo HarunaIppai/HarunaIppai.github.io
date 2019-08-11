@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	background-color: #fcfcfc;
+	min-width: 900pt;
+}
+
+td {
+	border-spacing: 0px;
+	padding: 0px;
+}
+
+p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-top: 12px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	font-weight: 600;
+}
+
+h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight: 450;
+}
+
+.tableHighlightCell {
+	border-radius: 10px;
+	padding: 0px
+}
+
+.tableHighlightCell:hover {
+	background-color: #cccccc;
+	transition: background-color .2s ease-in-out;
+	color: #444444
+}
+
+.mainFlowTD {
+	border-radius: 20px;
+	border: 2px solid #eeeeee;
+	box-shadow: 0 0 50px 2px #eeeeee;
+	padding: 10px 15px 10px 15px;
+}
+
+.mainFlowTD:hover {
+	box-shadow: 0 0 50px 2px #dddddd;
+	transition: box-shadow 0.2s ease-in-out;
+	border: 2px solid #4F9BFF;
+	transition: border 0.2s ease-in-out;
+}
+
+.mainFlowTDWithImage:hover {
+	box-shadow: 0 0 50px 2px #cccccc;
+	transition: box-shadow 0.2s ease-in-out;
+	border: 2px solid #4F9BFF;
+	transition: border 0.2s ease-in-out;
+}
+
+.mainFlowTDWithImage {
+	border-radius: 20px;
+	border: 2px solid #eeeeee;
+	box-shadow: 0 0 50px 2px #eeeeee;
+	padding: 0px 0px 5px 0px;
+	overflow: hidden
+}
+
+.captionTitle {
+	border-bottom: 1px solid #777777
+}
