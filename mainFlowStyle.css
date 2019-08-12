@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mainFlowTD {
+	border-radius: 20px;
+	border: 2px solid #eeeeee;
+	box-shadow: 0 0 50px 2px #eeeeee;
+	padding: 10px 15px 10px 15px;
+}
+
+.mainFlowTD:hover {
+	box-shadow: 0 0 50px 2px #dddddd;
+	transition: box-shadow 0.2s ease-in-out;
+	border: 2px solid #4F9BFF;
+	transition: border 0.2s ease-in-out;
+}
+
+.mainFlowTDWithImage:hover {
+	box-shadow: 0 0 50px 2px #cccccc;
+	transition: box-shadow 0.2s ease-in-out;
+	border: 2px solid #4F9BFF;
+	transition: border 0.2s ease-in-out;
+}
+
+.mainFlowTDWithImage {
+	border-radius: 20px;
+	border: 2px solid #eeeeee;
+	box-shadow: 0 0 50px 2px #eeeeee;
+	padding: 0px 0px 5px 0px;
+	overflow: hidden
+}
+
+.captionTitle {
+	border-bottom: 1px solid #777777
+}

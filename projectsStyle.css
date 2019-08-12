@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.LeadImage {
+	box-shadow: 0 0 10px 0 #cccccc;
+}
+
+.Button {
+	background: linear-gradient(#0b97ff,#52b5ff);
+	border: 2px solid #00aa00;
+	border-radius: 20px;
+	padding: 3px 10px 3px 10px;
+	color: #ffffff;
+	align-content: center;
+	margin: 0 5px 5px 0;
+}
+
+.ViewMore {
+	font-size: 14pt;
+	text-decoration: none; 
+}
+
+.ViewMore:hover {
+	text-decoration: underline;
+}
+
+.tagListCaption {
+	font-size: 9pt;
+	margin: 0
+}
+
+.tagList {
+	border: 2px solid #00aa00;
+	border-radius: 20px;
+	padding: 3px 10px 3px 10px;
+	color: #ffffff;
+	float: left;
+	align-content: center;
+	margin: 0 5px 5px 0;
+}
+
+.tagListDFM {
+	background-color: #0280C7;
+	border-color: #3EB9FF
+}
+
+.tagListHardware {
+	background-color: #9313D7;
+	border-color: #DB8FFF
+}
+
+.tagListSheetmetal {
+	background-color: #CDC800;
+	border-color: #E1D000;
+}
+
+.tagListComputerAccessories {
+	background-color: #BC8B00;
+	border-color: #FFCB45;
+}
+
+.tagListSoftware {
+	background-color: #D62124;
+	border-color: #F15F62;
+}
+
+.tagListWebDevelopment {
+	background-color: #D515C3;
+	border-color: #F280DB;
+}
+
+.tagListHCJ {
+	background-color: #12A0A9;
+	border-color: #42FFFB;
+	
+}
+
+.projectFlowTD {
+	border-radius: 20px;
+	border: 2px solid #eeeeee;
+	box-shadow: 0 0 50px 2px #eeeeee;
+	padding: 10px 15px 10px 15px;
+}
+
+.projectFlowTD:hover {
+	box-shadow: 0 0 50px 2px #dddddd;
+	transition: box-shadow 0.2s ease-in-out;
+	border: 2px solid #4F9BFF;
+	transition: border 0.2s ease-in-out;
+}
+
+.projectFlowTDWithImage:hover {
+	box-shadow: 0 0 50px 2px #cccccc;
+	transition: box-shadow 0.2s ease-in-out;
+	border: 2px solid #4F9BFF;
+	transition: border 0.2s ease-in-out;
+}
+
+.projectFlowTDWithImage {
+	border-radius: 25px;
+	border: 2px solid #eeeeee;
+	box-shadow: 0 0 50px 2px #eeeeee;
+	padding: 0px 0px 5px 0px;
+	overflow: hidden
+}
