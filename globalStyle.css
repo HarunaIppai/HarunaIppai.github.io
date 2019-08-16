@@ -51,3 +51,13 @@ h3 {
 .captionTitle {
 	border-bottom: 1px solid #777777
 }
+
+.homePage {
+	text-decoration: none;
+	color: #000000;
+}
+
+.homePage:hover {
+	color: #929292;
+	transition: color .2s ease-in-out;
+}
