@@ -1,6 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.meImage {
+	border-radius: 20px; 
+	box-shadow: 0 5px 20px 2px #aaaaaa; 
+	margin-top: 5px;
+}
+
+.meImage:hover {
+	transform: translate3d(0,-4px,0);
+	transition: transform 0.2s ease-in-out;
+}
+
 .mainFlowTD {
 	border-radius: 20px;
 	border: 2px solid #eeeeee;

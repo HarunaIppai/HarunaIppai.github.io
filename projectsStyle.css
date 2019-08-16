@@ -39,6 +39,16 @@
 	margin: 0 5px 5px 0;
 }
 
+.tagList:hover {
+	border-color: #414141;
+	transition: border-color .2s ease-in-out;
+	background-color: #FFFFFF;
+	transition: background-color .2s ease-in-out;
+	color: #333333;
+	transition: color .2s ease-in-out;
+	cursor: default;
+}
+
 .tagListDFM {
 	background-color: #0280C7;
 	border-color: #3EB9FF
@@ -73,6 +83,21 @@
 	background-color: #12A0A9;
 	border-color: #42FFFB;
 	
+}
+
+.tagListAnodized {
+	background-color: #242424;
+	border-color: #AEAEAE
+}
+
+.tagListPowderCoating {
+	background-color: #10DC77;
+	border-color: #68E8A9
+}
+
+.tagListCNC {
+	background-color: #17B295;
+	border-color: #5FE8D6
 }
 
 .projectFlowTD {
