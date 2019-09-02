@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.courseList {
+	float: left;
+	width: 350px;
+}
+
+.experienceFlowTDWithImage {
+	border-radius: 20px;
+	border: 2px solid #eeeeee;
+	box-shadow: 0 0 50px 2px #eeeeee;
+	padding: 10px 15px 10px 15px;
+}
+
+.experienceFlowTDWithImage:hover {
+	box-shadow: 0 0 50px 2px #cccccc;
+	transition: box-shadow 0.2s ease-in-out;
+	border: 2px solid #4F9BFF;
+	transition: border 0.2s ease-in-out;
+}
