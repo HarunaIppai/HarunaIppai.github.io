@@ -1,16 +1,50 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.skillDiv {
+	height: 34px; 
+	border-radius: 10px; 
+	border: 2px solid #ffaaaa; 
+	width: 100%;
+}
+
+.skillProgressbarDiv {
+	position: absolute; 
+	background-color: #FF6466; 
+	height: 34px; 
+	border-radius: 8px 0 0 8px; 
+	
+}
+
 .courseList {
 	float: left;
-	width: 350px;
+	width: 500px;
+}
+
+.skillList {
+	float: left;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.skillCategoryTitle {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	border-bottom: 0px solid #aaaaaa;
+}
+
+p {
+	font-size: 15px;
+	margin-top: 5px;
 }
 
 .experienceFlowTDWithImage {
 	border-radius: 20px;
 	border: 2px solid #eeeeee;
 	box-shadow: 0 0 50px 2px #eeeeee;
-	padding: 10px 15px 10px 15px;
+	padding: 15px 30px 20px 30px;
 }
 
 .experienceFlowTDWithImage:hover {
