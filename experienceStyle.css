@@ -4,16 +4,20 @@
 .skillDiv {
 	height: 34px; 
 	border-radius: 10px; 
-	border: 2px solid #ffaaaa; 
+	border: 2px solid #A7AFB2; 
 	width: 100%;
 }
 
 .skillProgressbarDiv {
 	position: absolute; 
-	background-color: #FF6466; 
+	background-color: #D7DDDF; 
 	height: 34px; 
 	border-radius: 8px 0 0 8px; 
-	
+}
+
+.skillFont {
+	padding-right: 10px;
+	color: #4B5052
 }
 
 .courseList {
