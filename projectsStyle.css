@@ -18,10 +18,12 @@
 .ViewMore {
 	font-size: 14pt;
 	text-decoration: none; 
+	color: #2399FF
 }
 
 .ViewMore:hover {
-	text-decoration: underline;
+	text-shadow: 0pt 0pt 1pt #2399ff;
+	transition: text-shadow 0.3s ease-in-out;
 }
 
 .tagListCaption {
