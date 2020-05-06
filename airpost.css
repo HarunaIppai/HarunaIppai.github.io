@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-family: lato;
+	font-size: 6vw;
+	font-weight: 400;
+	margin: 10pt 10pt 0 0;
+}
+
+p {
+	font-family: lato;
+	margin: 0 0 1vw 0;
+}
+
+a {
+	text-decoration: none;
+	padding-top: 20px;
+	font-family: lato;
+}
+
+a :hover {
+	text-decoration: underline;
+	color: aquamarine;
+	transition: color .2s ease-in-out;
+}
+
+img {
+	margin: 0;
+}
+
+h3 {
+	text-align: center;
+	font-family: lato;
+	font-size: 3vw;
+	margin: 0 0 2vw 0;
+}
+
+.subtitle {
+	font-size: 3vw;
+}
+
+strong {
+	background: linear-gradient(to right, #0076BA 0%, #16E7CF 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+}
+
+.gradientText {
+	background: linear-gradient(to right, #0076BA 0%, #16E7CF 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+}
+
+.text {
+	font-size: 2vw;
+	line-height: 1.5;
+}
+
+.et-hero-tabs,
+.et-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #eee;
+		text-align: center;
+		padding: 0 2em;
+}
+
+.et-hero-tabs-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    z-index: 10;
+}
+
+.et-hero-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #000;
+    letter-spacing: 0.1rem;
+	transition: all 0.5s ease;
+	font-size: 0.8rem;
+}
+
+.et-hero-tab :hover {
+	color:white;
+    background: rgba(102,177,241,0.8);
+	transition: all 0.5s ease;
+}
+
+.et-hero-tab-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #66B1F1;
+    transition: left 0.3s ease;
+}
+
+@media (min-width: 800px) {
+	.et-hero-tabs,
+	.et-slide {
+	}
+	.et-hero-tab {
+		font-size: 1rem;
+	}
+}
